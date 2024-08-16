@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <main>
       <Button as="a" variant="primary">
-        Home
+        page
       </Button>
     </main>
   );
