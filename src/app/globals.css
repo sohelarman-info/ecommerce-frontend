@@ -1,0 +1,88 @@
+/* font family */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* root CSS */
+:root{
+    --color-white : #FAFAFA;
+    --color-old-gray : #A7A7A7;
+    --color-black : #383838;
+    --color-red : #F46B5B;
+    --color-yellow : #FFD687;
+    --color-purple : #BB6BD9;
+    --color-blue : #2D9CDB;
+    --font-montserrat : "Montserrat", sans-serif;
+}
+
+
+/* text-style */
+.text-regular-18 {
+    font-family: var(--font-montserrat) !important;
+    font-size: 18px !important;
+  }
+.text-regular-24 {
+    font-family: var(--font-montserrat) !important;
+    font-size: 24px !important;
+  }
+.text-regular-36 {
+    font-family: var(--font-montserrat) !important;
+    font-size: 36px !important;
+  }
+.text-medium-18 {
+    font-family: var(--font-montserrat) !important;
+    font-size: 18px !important;
+    font-weight: 500 !important;
+  }
+.text-medium-24 {
+    font-family: var(--font-montserrat) !important;
+    font-size: 24px !important;
+    font-weight: 500 !important;
+  }
+.text-medium-36 {
+    font-family: var(--font-montserrat) !important;
+    font-size: 36px !important;
+    font-weight: 500 !important;
+  }
+.text-bold-18 {
+    font-family: var(--font-montserrat) !important;
+    font-size: 18px !important;
+    font-weight: 700 !important;
+  }
+.text-bold-24 {
+    font-family: var(--font-montserrat) !important;
+    font-size: 24px !important;
+    font-weight: 700 !important;
+  }
+.text-bold-36 {
+    font-family: var(--font-montserrat) !important;
+    font-size: 36px !important;
+    font-weight: 700 !important;
+  }
+.text-h-1 {
+    font-family: var(--font-montserrat) !important;
+    font-size: 96px !important;
+    font-weight: 700 !important;
+    line-height: 112px !important;
+  }
+.text-h-2 {
+    font-family: var(--font-montserrat) !important;
+    font-size: 56px !important;
+    font-weight: 700 !important;
+  }
+.text-h-3 {
+    font-family: var(--font-montserrat) !important;
+    font-size: 48px !important;
+    font-weight: 700 !important;
+  }
+.text-h-4 {
+    font-family: var(--font-montserrat) !important;
+    font-size: 36px !important;
+    font-weight: 700 !important;
+  }
+.text-h-5 {
+    font-family: var(--font-montserrat) !important;
+    font-size: 24px !important;
+    font-weight: 700 !important;
+  }
+
+
+

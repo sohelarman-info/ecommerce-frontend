@@ -4,9 +4,7 @@ import styles from "./page.module.css";
 export default function Home() {
   return (
     <main>
-      <Button as="a" variant="primary">
-        page
-      </Button>
+      <Button className="text-h-1">page</Button>
     </main>
   );
 }
