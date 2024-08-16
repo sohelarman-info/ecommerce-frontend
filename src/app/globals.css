@@ -84,5 +84,52 @@
     font-weight: 700 !important;
   }
 
+/* text-color */
+.text-white{
+    color: var(--color-white) !important;
+}
+.text-black{
+    color: var(--color-black) !important;
+}
+.text-blue{
+    color: var(--color-blue) !important;
+}
+.text-gray{
+    color: var(--color-old-gray) !important;
+}
+.text-purple{
+    color: var(--color-purple) !important;
+}
+.text-red{
+    color: var(--color-red) !important;
+}
+.text-yellow{
+    color: var(--color-yellow) !important;
+}
 
+/* backgroud-color */
+.bg-white{
+    background-color: var(--color-white) !important;
+}
+.bg-black{
+    background-color: var(--color-black) !important;
+}
+.bg-blue{
+    background-color: var(--color-blue) !important;
+}
+.bg-gray{
+    background-color: var(--color-old-gray) !important;
+}
+.bg-purple{
+    background-color: var(--color-purple) !important;
+}
+.bg-red{
+    background-color: var(--color-red) !important;
+}
+.bg-white{
+    background-color: var(--color-white) !important;
+}
+.bg-yellow{
+    background-color: var(--color-yellow) !important;
+}
 
