@@ -1,10 +1,13 @@
-import { Button, Stack } from "react-bootstrap";
+import { Button, Container, Stack } from "react-bootstrap";
 import styles from "./page.module.css";
+import ViewProduct from "@/components/viewProduct/page";
 
 export default function Home() {
   return (
     <main>
-      <Button className="text-h-1 text-red bg-white">page</Button>
+      <Container>
+        <ViewProduct />
+      </Container>
     </main>
   );
 }
