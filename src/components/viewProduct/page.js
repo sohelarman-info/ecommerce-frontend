@@ -4,16 +4,20 @@ import { FaChevronRight, FaMinus, FaPlus } from "react-icons/fa";
 import { PiLineVerticalBold } from "react-icons/pi";
 import { MdFavorite } from "react-icons/md";
 import ReviewStar from "../reviewStar/page";
-import PackageSVG from "../../../public/svg/packageSVG";
 import FastDeliverySVG from "../../../public/svg/FastDeliverySVG";
 import VoucherSVG from "../../../public/svg/VoucherSVG";
+import PackageSVG from "../../../public/svg/PackageSVG";
+import NavTab from "./navTab";
+import ImageSlider from "./imgSlider";
 
 const ViewProduct = () => {
   return (
     <>
-      <div>
+      <div className="my-5">
         <Row className="gap-5">
-          <Col className="bg-danger">img_Slider</Col>
+          <Col className="bg-danger">
+            <ImageSlider />
+          </Col>
           <Col className="">
             <Row>
               <Col>
@@ -22,8 +26,10 @@ const ViewProduct = () => {
                   <span className="text-red">Wareless Microphone</span>
                 </div>
                 <div className="d-flex justify-content-between align-items-center">
-                  <div className="d-flex gap-2 text-gray text-regul align-items-center mt-3 text-regular-18">
-                    <span className="text-black text-medium-18">5.0</span>
+                  <div className="d-flex gap-2 text-gray mt-3 text-regular-18">
+                    <span className="text-black text-medium-18 line-height-30">
+                      5.0
+                    </span>
                     <ReviewStar count={5} />
                     <span>{`Review (12)`}</span>
                     <PiLineVerticalBold />
@@ -85,6 +91,11 @@ const ViewProduct = () => {
                 </div>
               </Col>
             </Row>
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <NavTab />
           </Col>
         </Row>
       </div>

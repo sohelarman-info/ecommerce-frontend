@@ -5,9 +5,7 @@ import ViewProduct from "@/components/viewProduct/page";
 export default function Home() {
   return (
     <main>
-      <Container>
-        <ViewProduct />
-      </Container>
+      <Container></Container>
     </main>
   );
 }
