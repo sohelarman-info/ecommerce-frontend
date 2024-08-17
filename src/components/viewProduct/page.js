@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Col, Row } from "react-bootstrap";
+import { Col, Row } from "react-bootstrap";
 import { FaChevronRight, FaMinus, FaPlus } from "react-icons/fa";
 import { PiLineVerticalBold } from "react-icons/pi";
 import { MdFavorite } from "react-icons/md";
@@ -15,7 +15,7 @@ const ViewProduct = () => {
     <>
       <div className="my-5">
         <Row className="gap-5">
-          <Col className="bg-danger">
+          <Col className="">
             <ImageSlider />
           </Col>
           <Col className="">
@@ -25,7 +25,7 @@ const ViewProduct = () => {
                   Product <FaChevronRight />
                   <span className="text-red">Wareless Microphone</span>
                 </div>
-                <div className="d-flex justify-content-between align-items-center">
+                <div className="d-flex justify-content-between align-items-center my-3">
                   <div className="d-flex gap-2 text-gray mt-3 text-regular-18">
                     <span className="text-black text-medium-18 line-height-30">
                       5.0
@@ -40,10 +40,10 @@ const ViewProduct = () => {
                     Add to Wishlist
                   </div>
                 </div>
-                <div className="mt-1">
+                <div className="my-3">
                   <h2 className="text-medium-36">Wireless Microphone</h2>
                 </div>
-                <div className="d-flex align-items-center gap-2 mt-2">
+                <div className="d-flex align-items-center gap-2 my-3">
                   <span className="text-bold-36">$20.00</span>
                   <del className="text-gray">$30.00</del>
                   <span className="px-1 py-2 rounded-2 text-red border-red">
@@ -65,7 +65,7 @@ const ViewProduct = () => {
                   </div>
                 </div>
                 <hr />
-                <div>
+                <div className="my-3">
                   <p className="text-medium-18 mt-3 mb-2">Discription</p>
                   <p className="text-gray">
                     Wireless Microphone with the new style, shockproof, clear

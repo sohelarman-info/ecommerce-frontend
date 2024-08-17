@@ -1,6 +1,6 @@
-import { Button, Container, Stack } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import styles from "./page.module.css";
-import ViewProduct from "@/components/viewProduct/page";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function Home() {
   return (
