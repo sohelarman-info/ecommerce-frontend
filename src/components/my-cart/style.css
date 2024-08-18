@@ -1,0 +1,25 @@
+/* Cart Product Style */
+
+.box-180 {
+  width: 130px;
+  height: 130px;
+  cursor: pointer;
+}
+
+.counter-btn {
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.counter-gray-btn {
+  background-color: #d0d0d2;
+}
+
+input[type="checkbox"] {
+  accent-color: red;
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
