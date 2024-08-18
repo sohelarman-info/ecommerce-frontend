@@ -1,7 +1,7 @@
 import { Col, Row } from "react-bootstrap";
 import { productData } from "../data";
 import "../style.css";
-import { FaPlus, FaMinus } from "react-icons/fa6";
+// import { FaPlus, FaMinus } from "react-icons/fa6";
 
 const ProductList = () => {
   return (

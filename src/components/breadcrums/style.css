@@ -1,0 +1,22 @@
+.breadcrumsNext {
+  list-style: none;
+  display: flex;
+  margin-top: 33px;
+  margin-bottom: 20px;
+}
+
+.breadcrumsNext li a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: capitalize;
+  color: #a7a7a7;
+}
+
+.breadRight {
+  margin: 0 16px;
+}
+
+.ActiveBreadcrums {
+  color: #f46b5b;
+}
