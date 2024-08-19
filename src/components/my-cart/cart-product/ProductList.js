@@ -1,41 +1,35 @@
+"use client";
 import { Col, Row } from "react-bootstrap";
-import { productData } from "../data";
+
 import "../style.css";
+import { productData } from "../data";
+import { IoClose } from "react-icons/io5";
 import { FaPlus, FaMinus } from "react-icons/fa6";
+import Image from "next/image";
+import { useState } from "react";
+import ProductMap from "./ProductMap";
+import ProductRight from "./ProductRight";
 
 const ProductList = () => {
+  const [quantity, setQuantity] = useState(1);
   return (
-    <Row>
-      <Col xs={8}>
-        <div>
+    <Row className="">
+      <Col xs={8} className="last-border">
+        <div className="mt-4">
           {productData.map((item, i) => (
-            <div className="d-flex align-items-center" key={i}>
-              <input type="checkbox" className="text-red" />
-              <img
-                src={item.image}
-                className="box-180 mx-5"
-                alt="Product Image"
+            <div key={i}>
+              <ProductMap
+                price={item.price}
+                image={item.image}
+                name={item.name}
               />
-              <div>
-                <h5>{item.name}</h5>
-                <h5 className="text-red">{item.price}</h5>
-                <div className="d-flex ">
-                  <div className="counter-btn counter-gray-btn text-gray d-flex justify-content-center align-items-center">
-                    <FaMinus />
-                  </div>
-                  <span className="text-red px-3 text-center align-content-center">
-                    1
-                  </span>
-                  <div className="counter-btn text-white  bg-red d-flex justify-content-center align-items-center">
-                    <FaPlus />
-                  </div>
-                </div>
-              </div>
             </div>
           ))}
         </div>
       </Col>
-      <Col>awd</Col>
+      <Col>
+        <ProductRight />
+      </Col>
     </Row>
   );
 };
