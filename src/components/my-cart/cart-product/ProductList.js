@@ -3,9 +3,7 @@ import { Col, Row } from "react-bootstrap";
 
 import "../style.css";
 import { productData } from "../data";
-import { IoClose } from "react-icons/io5";
-import { FaPlus, FaMinus } from "react-icons/fa6";
-import Image from "next/image";
+
 import { useState } from "react";
 import ProductMap from "./ProductMap";
 import ProductRight from "./ProductRight";
