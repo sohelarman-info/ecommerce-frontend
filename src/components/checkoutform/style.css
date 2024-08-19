@@ -4,3 +4,155 @@
   background-color: black;
   opacity: 1;
 }
+
+.mt-checkout {
+  margin-top: 80px;
+}
+
+input {
+  width: 100%;
+  height: 60px;
+  border-radius: 8px;
+  border: 1px solid #383838;
+  text-indent: 10px;
+}
+select {
+  width: 100%;
+  height: 60px;
+  border-radius: 8px;
+  border: 1px solid #383838;
+}
+
+textarea {
+  width: 100%;
+  height: 120px;
+}
+
+label {
+  font-size: 18px;
+  font-weight: 400;
+  color: #383838;
+  margin-top: 32px;
+  margin-bottom: 16px;
+}
+
+.OrderSummery {
+  border: 1px solid #383838;
+  border-radius: 8px;
+  padding: 32px 26px 32px 27px;
+  height: auto;
+}
+
+.OrderSummery h4 {
+  font-weight: 600;
+  font-size: 24px;
+  text-align: center;
+}
+
+.products {
+  margin-bottom: 24px;
+}
+
+.productsName {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  font-size: 18px;
+  color: #383838;
+}
+
+.productflex {
+  display: flex;
+  gap: 32px;
+}
+
+.regular {
+  font-weight: 400 !important;
+}
+
+.othercheckcss {
+  font-weight: 600;
+  font-size: 18px;
+  color: #383838;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.paybtn {
+  display: flex;
+  justify-content: space-between;
+}
+
+.paybtn button {
+  font-weight: 500;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #383838;
+  background-color: #fff;
+  color: #383838;
+}
+
+.crec {
+  padding: 10px 9px;
+}
+
+.bat {
+  padding: 10px 9px;
+}
+
+.payp {
+  padding: 10px 12px;
+}
+/* .paybtn button {
+  border: 1px solid #383838;
+  border-radius: 8px;
+  width: 100%;
+  background-color: #fff;
+  padding: 10px 9px;
+  color: #383838;
+  text-transform: capitalize;
+}
+
+
+
+.paybtn::nth-child(1) {
+  display: none;
+} */
+
+.payhead {
+  margin-top: 40px;
+  text-align: left !important;
+}
+
+.paybtn {
+  margin-top: 32px;
+}
+
+.paybtn button:hover {
+  background-color: #383838;
+  color: #fafafa;
+  transition: all linear 0.3s;
+}
+
+.BtnSubmition {
+  margin-top: 56px;
+}
+
+.BtnSubmition button {
+  width: 100%;
+  padding: 18.5px 0;
+  background-color: #f46b5b;
+  color: #fff;
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+  border-radius: 8px;
+  border: none;
+}
+
+.BtnSubmition .norm {
+  background-color: #fff;
+  color: #383838;
+  margin-top: 5px;
+}
