@@ -1,12 +1,11 @@
-import { Button, Stack } from "react-bootstrap";
-import styles from "./page.module.css";
+import Category from "@/sections/category";
+import Hero from "@/sections/hero";
 
 export default function Home() {
   return (
     <main>
-      <Button as="a" variant="primary">
-        page
-      </Button>
+     <Hero/>
+     <Category/>
     </main>
   );
 }
