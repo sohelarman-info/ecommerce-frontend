@@ -1,7 +1,8 @@
 .progressCheckout {
   width: 804px;
   margin: 0 auto;
-  margin-top: 72px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .listdesign {
@@ -15,6 +16,18 @@
   font-size: 24px;
   font-weight: 500;
   color: #f46b5b;
+}
+.listdesign-checkout {
+  width: 54px;
+  height: 54px;
+  border: 2px solid #a7a7a7;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 500;
+  color: #a7a7a7;
 }
 
 .mycart,

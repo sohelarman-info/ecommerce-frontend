@@ -1,15 +1,15 @@
 "use client";
 import { Col, Row } from "react-bootstrap";
-
 import "../style.css";
 import { productData } from "../data";
-
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import ProductMap from "./ProductMap";
 import ProductRight from "./ProductRight";
 
-const ProductList = () => {
-  const [quantity, setQuantity] = useState(1);
+const Cart = () => {
+  const [totalPrice, setTotalPrice] = useState(0);
+  const [toogle, setToogle] = useState(false);
+
   return (
     <Row className="">
       <Col xs={8} className="last-border">
@@ -20,16 +20,20 @@ const ProductList = () => {
                 price={item.price}
                 image={item.image}
                 name={item.name}
+                totalPrice={totalPrice}
+                setTotalPrice={setTotalPrice}
+                setToogle={setToogle}
+                toogle={toogle}
               />
             </div>
           ))}
         </div>
       </Col>
       <Col>
-        <ProductRight />
+        <ProductRight totalPrice={totalPrice} />
       </Col>
     </Row>
   );
 };
 
-export default ProductList;
+export default Cart;

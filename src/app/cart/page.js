@@ -1,9 +1,9 @@
-import ProductList from "@/components/my-cart/cart-product/ProductList";
+import Cart from "@/components/my-cart/cart-product/Cart";
 
 const page = () => {
   return (
     <div className="container">
-      <ProductList />
+      <Cart />
     </div>
   );
 };

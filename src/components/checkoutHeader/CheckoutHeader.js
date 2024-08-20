@@ -1,6 +1,8 @@
+"use client";
 import React from "react";
 import "./style.css";
 import { Montserrat, Poppins } from "next/font/google";
+import { usePathname } from "next/navigation";
 
 const montserrat = Montserrat({
   weight: ["300", "400", "500", "700"],
@@ -16,10 +18,17 @@ const poppins = Poppins({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
 });
 export default function CheckoutHeader() {
+  const paths = usePathname();
+  const pathname = paths.split("/");
+
   return (
     <>
-      <h3 className={montserrat.className + " " + " checkoutheader"}>
-        Checkout
+      <h3
+        className={
+          montserrat.className + " " + " checkoutheader text-capitalize"
+        }
+      >
+        {pathname.length > 2 ? "Checkout" : "Cart"}
       </h3>
       <div
         className={
@@ -34,8 +43,16 @@ export default function CheckoutHeader() {
         </div>
         <div className="mycartgap"></div>
         <div className="mycheckout">
-          <div className="listdesign">2</div>
-          <span>Checkout</span>
+          <div
+            className={`${
+              pathname.length > 2 ? "listdesign" : "listdesign-checkout"
+            }`}
+          >
+            2
+          </div>
+          <span className={`${pathname.length > 2 ? "" : "text-gray"}`}>
+            Checkout
+          </span>
         </div>
       </div>
     </>

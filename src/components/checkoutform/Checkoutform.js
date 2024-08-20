@@ -5,6 +5,7 @@ import { Col, Row } from "react-bootstrap";
 import { useFormik } from "formik";
 import { StateData } from "./StateData";
 import { Poppins } from "next/font/google";
+import Link from "next/link";
 const poppins = Poppins({
   subsets: ["latin"],
   display: "swap",
@@ -138,11 +139,9 @@ export default function Checkoutform() {
                   value={formik.values.state}
                 >
                   {StateData.map((item, i) => (
-                    <>
-                      <option key={i} value={item.name}>
-                        {item.name}
-                      </option>
-                    </>
+                    <option key={i} value={item.name}>
+                      {item.name}
+                    </option>
                   ))}
                 </select>
               </Col>
@@ -232,7 +231,9 @@ export default function Checkoutform() {
                 </div>
                 <div className="BtnSubmition">
                   <button type="submit">Checkout</button>
-                  <button className="norm">Back to Cart</button>
+                  <Link href="/cart">
+                    <button className="norm">Back to Cart</button>
+                  </Link>
                 </div>
               </div>
             </div>
