@@ -260,15 +260,14 @@
 
 .review-tag {
     display: flex;
-    justify-content: space-between;
     gap: 20px;
 }
 
 .review-tag p{
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 400px;
     color: var(--black-color);
-    width: 150px;
+    width: 120px;
     text-align: center;
     border-bottom: 2px solid transparent;
     transition: .4s;
@@ -339,5 +338,90 @@
 /* ========================review-form part start====================== */
 .review-form-part {
     width: 50%;
+    padding-left: 50px;
+    padding-top: 80px;
+}
+
+.form-text {
+    width: 80%;
+}
+
+.form-text h4{
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--black-color);
+}
+
+.form-text p{
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--icon-color);
+    margin-top: 15px;
+}
+
+.form-part {
+    margin-top: 40px;
+    width: 100%;
+}
+
+.form-part label{
+    display: block;
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--black-color);
+    margin-bottom: 10px;
+    margin-top: 8px;
+}
+
+.form-part input {
+    width: 100%;
+    padding: 12px 0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid var(--border-color);
+    margin-bottom: 20px;
+}
+
+.form-part textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 15px;
+    border: 2px solid var(--border-color);
+    margin-bottom: 15px;
+    margin-top: 8px;
+    border-radius: 15px;
+}
+
+.cmnt-errors{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--red-color);
+    margin-top: 6px;
+    margin-bottom: 10px;
+}
+
+.form-rating {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.form-rating p {
+    color: var(--black-color);
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.form-part button {
+    padding: 12px 32px;
+    background: var(--red-color);
+    color: var(--white-color);
+    font-weight: 400;
+    font-size: 18px;
+    border: none;
+    border-radius: 15px;
+    margin-top: 20px;
 }
 /* ========================review-form part end====================== */
