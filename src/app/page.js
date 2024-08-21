@@ -1,12 +1,10 @@
-import { Button, Stack } from "react-bootstrap";
-import styles from "./page.module.css";
+import React from "react";
+import HomePage from "./pages/home/page";
 
 export default function Home() {
   return (
-    <main>
-      <Button as="a" variant="primary">
-        page
-      </Button>
-    </main>
+   <>
+      <HomePage/>
+   </>
   );
 }
