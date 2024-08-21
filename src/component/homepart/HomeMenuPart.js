@@ -15,7 +15,7 @@ function HomeMenuBar() {
                 <a href='/'><li className='list-type'>Home</li></a>
                 <a href='/pages/about'><li className='list-type'>About</li></a>
                 <a href='/pages/product'><li className='list-type'>Product</li></a>
-                <a href='/'><li className='list-type'>Blog</li></a>
+                <a href='/pages/blog'><li className='list-type'>Blog</li></a>
                 <a href='/'><li className='list-type'>Contact</li></a>
             </ul>
         </div>
