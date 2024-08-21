@@ -62,14 +62,21 @@ function Productdetailsright() {
         <p>Wireless Microphone with the new style, shockproof, clear voice reception that suitable for recording, online meeting, vlogging, and calling. Free casing with high-quality zipper.</p>
       </div>
 
+    <div className='qnty-chrt'>
       <div className='quantity'>
-        <h3>Quantity</h3>
-        <div className='count'>
-          <div className='minus' onClick={handleminusclick}>-</div>
-          <p>{count}</p>
-          <div className='plas' onClick={handleplasclick}>+</div>
+          <h3>Quantity</h3>
+          <div className='count'>
+            <div className='minus' onClick={handleminusclick}>-</div>
+            <p>{count}</p>
+            <div className='plas' onClick={handleplasclick}>+</div>
+          </div>
         </div>
-      </div>
+
+        <div className='chrt'>
+          <a href='#'><button className='chart'>Chart</button></a>
+          <a href='#'><button className='cart'>Add to Cart</button></a>
+        </div>
+    </div>
     </div>
   )
 }
