@@ -1,9 +1,8 @@
 import { Poppins } from "next/font/google";
 import "./globals.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Navbar from "@/sections/navbar";
 
-const poppins = Poppins({ subsets: ["latin"], weight: ["400", "700"] });
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "E-Commerce",
@@ -14,8 +13,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={poppins.className}>
-      <Navbar/>
-      {children}
+        <Navbar />
+        {children}
       </body>
     </html>
   );
