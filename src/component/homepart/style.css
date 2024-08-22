@@ -69,12 +69,12 @@
     width: 50%;
 }
 
-.menu-list{
+/* .menu-list{
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 48px;
-}
+} */
 
 .menu-list a {
     color: var(--black-color);
@@ -84,15 +84,22 @@
 }
 
 .list-type {
-    width: 48px;
+    width: 30%;
     transition: .4s all linear ;
-    text-align: center;
     cursor: pointer;
-}
+} 
 
 .list-type:hover {
-    width: 80px;
-    border-bottom: 2px solid var(--red-color);
+    width: 30%;
+    color: var(--red-color);
+}
+
+.navbar-nav .nav-link.active {
+    color: var(--red-color) !important;
+}
+
+.nav-link:focus, .nav-link:hover{
+    color: var(--red-color) !important;
 }
 
 .search-bar {

@@ -1,7 +1,11 @@
+'use client'
 import React from 'react'
 import { FaSearch } from "react-icons/fa";
 import { MdOutlineShoppingBag } from "react-icons/md";
 import { MdMailOutline } from "react-icons/md";
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
 
 
 function HomeMenuBar() {
@@ -11,13 +15,25 @@ function HomeMenuBar() {
             <h2>Tronix</h2>
         </div>
         <div className='all-menu'>
-            <ul className='menu-list'>
-                <a href='/'><li className='list-type'>Home</li></a>
-                <a href='/pages/about'><li className='list-type'>About</li></a>
-                <a href='/pages/product'><li className='list-type'>Product</li></a>
-                <a href='/pages/blog'><li className='list-type'>Blog</li></a>
-                <a href='/'><li className='list-type'>Contact</li></a>
-            </ul>
+                <Navbar expand="lg">
+                    <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                    <Navbar.Collapse  className='menu-list'>
+                    <Nav className="mx-auto">
+                        <Nav.Link href="/" className='list-type'>Home</Nav.Link>
+                        <Nav.Link href="/pages/about" className='list-type'>About</Nav.Link>
+                        <Nav.Link href="/pages/product" className='list-type'>Product</Nav.Link>
+                        <NavDropdown title="Blog" id="basic-nav-dropdown" className='list-type'>
+                        <NavDropdown.Item href="/pages/blog">
+                            Blog List
+                        </NavDropdown.Item>
+                        <NavDropdown.Item href="/pages/blogdetails">
+                            Blog Details
+                        </NavDropdown.Item>
+                        </NavDropdown>
+                        <Nav.Link href="/" className='list-type'>Contact</Nav.Link>
+                    </Nav>
+                    </Navbar.Collapse>
+                </Navbar>
         </div>
         <div className='search-bar'>
             <div className='search-box'>
