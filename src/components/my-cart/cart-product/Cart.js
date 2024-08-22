@@ -2,9 +2,9 @@
 import { Col, Row } from "react-bootstrap";
 import "../style.css";
 import { productData } from "../data";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import ProductMap from "./ProductMap";
-import ProductRight from "./ProductRight";
+import CartRight from "./CartRight";
 
 const Cart = () => {
   const [totalPrice, setTotalPrice] = useState(0);
@@ -34,7 +34,7 @@ const Cart = () => {
         </div>
       </Col>
       <Col>
-        <ProductRight totalPrice={totalPrice} />
+        <CartRight totalPrice={totalPrice} />
       </Col>
     </Row>
   );

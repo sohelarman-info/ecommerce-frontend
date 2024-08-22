@@ -2,7 +2,7 @@ import Link from "next/link";
 import CuponIcon from "./CuponIcon";
 import { FaAngleRight } from "react-icons/fa";
 import { useSelector } from "react-redux";
-const ProductRight = () => {
+const CartRight = () => {
   const price = useSelector((state) => state.totalPrice.Price);
 
   return (
@@ -38,4 +38,4 @@ const ProductRight = () => {
   );
 };
 
-export default ProductRight;
+export default CartRight;
