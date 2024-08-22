@@ -69,13 +69,6 @@
     width: 50%;
 }
 
-/* .menu-list{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 48px;
-} */
-
 .menu-list a {
     color: var(--black-color);
     font-size: 18px;

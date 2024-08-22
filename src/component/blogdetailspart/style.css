@@ -51,7 +51,7 @@
 .blg-all-part{
     margin: 60px 0;
     display: flex;
-    justify-content: space-between;
+    gap: 32px;
 }
 
 
@@ -179,6 +179,34 @@
 }
 /* =====================blog left part end==================== */
 
-/* =====================blog right part start==================== */
+/* =====================blog-dtls right part start==================== */
+.blg-dtls-right-part h3 {
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--black-color);
+}
 
-/* =====================blog right part end==================== */
+.admin-cmnt-part {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.timing {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--icon-color);
+    text-transform: capitalize;
+    margin-top: 16px;
+}
+
+.comnt-img {
+    width: 100%;
+    border-radius: 15px;
+    overflow: hidden;
+    margin-top: 40px;
+}
+/* =====================blog-dtls right part end==================== */
