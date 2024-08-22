@@ -146,13 +146,17 @@
     width: 25px;
     height: 25px;
     border-radius: 50%;
-    font-size: 14px;
-    font-weight: 400;
     background: var(--red-color);
-    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.number p {
+    color: var(--white-color);
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 2px;
 }
 /* ======================header part end=================== */
 
@@ -470,13 +474,14 @@
 }
 
 .flash-sec-text {
-    padding: 30px 60px;
+    padding: 30px 20px;
     text-align: center;
 }
 
 .flash-sec-text h3{
     font-size: 24px;
     font-weight: 400;
+    line-height: 32px;
     color: var(--black-color);
 }
 

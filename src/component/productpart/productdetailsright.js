@@ -6,6 +6,9 @@ function Productdetailsright() {
 
   const handleminusclick = ()=> {
     setCount(count - 1)
+    if(count == 0){
+      setCount(0)
+    }
   }
 
   const handleplasclick = ()=> {
