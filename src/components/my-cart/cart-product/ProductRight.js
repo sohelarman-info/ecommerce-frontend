@@ -7,9 +7,9 @@ const ProductRight = () => {
 
   return (
     <div className="mt-5">
-      <div className="w-100 cupon-wrapper justify-content-center align-items-center border-red d-flex py-2 px-3 rounded-2">
+      <div className="w-100 pointer cupon-wrapper justify-content-center align-items-center border-red d-flex py-2 px-3 rounded-2">
         <CuponIcon />
-        <h6 className="mx-3 font-weight-bold">Have a coupon code?</h6>
+        <h6 className="mx-3 font-weight-bold ">Have a coupon code?</h6>
         <FaAngleRight />
       </div>
       {/* Summary */}

@@ -43,7 +43,7 @@ const ProductMap = ({ image, name, price }) => {
   return (
     <div className="d-flex products py-2 align-items-center justify-content-between">
       <div className="d-flex align-items-center justify-content-center">
-        <input type="checkbox" className="text-red" />
+        <input type="checkbox" className="text-red map-input" />
         <Image
           width={130}
           height={130}

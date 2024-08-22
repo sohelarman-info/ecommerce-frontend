@@ -20,9 +20,11 @@
 input[type="checkbox"] {
   accent-color: red;
   width: 18px;
+  outline: auto #d0d0d2;
   height: 18px;
   cursor: pointer;
 }
+
 .products {
   border-top: 1px solid #f46b5b;
 }

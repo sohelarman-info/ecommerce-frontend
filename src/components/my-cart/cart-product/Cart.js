@@ -14,6 +14,10 @@ const Cart = () => {
     <Row className="">
       <Col xs={8} className="last-border">
         <div className="mt-4">
+          <div className="d-flex mb-3 align-items-center">
+            <input type="checkbox" />
+            <p className="m-0 ms-2 text-gray">Select All</p>
+          </div>
           {productData.map((item, i) => (
             <div key={i}>
               <ProductMap
