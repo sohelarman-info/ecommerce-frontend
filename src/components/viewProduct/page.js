@@ -9,6 +9,7 @@ import VoucherSVG from "../../../public/svg/VoucherSVG";
 import PackageSVG from "../../../public/svg/PackageSVG";
 import NavTab from "./navTab";
 import ImageSlider from "./imgSlider";
+import './style.css'
 
 const ViewProduct = () => {
   return (
