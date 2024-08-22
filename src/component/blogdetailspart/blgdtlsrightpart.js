@@ -24,7 +24,16 @@ function Blgdtlsrightpart() {
       </div>
 
       <div className='comnt-img'>
-        <Image src='/Ad_3.png' width={1000} height={400} alt='cmnt-img' style={{objectFit: "cover"}}/>
+        <Image src='/Ad_3.png' width={1050} height={400} alt='cmnt-img' style={{objectFit: "cover"}}/>
+      </div>
+      <div className='blg-dtls-text'>
+        <p>To support performance in playing, a professional e-sport player must use the right device. To support performance in playing, a professional e-sport player must use the right e-sport-support smartphone.</p>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+      <div className='blg-dtls-text-quote'>
+        <p>“ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ”</p>
+        <h4>- Sam Alabama</h4>
       </div>
     </div>
   )

@@ -180,6 +180,10 @@
 /* =====================blog left part end==================== */
 
 /* =====================blog-dtls right part start==================== */
+.blg-dtls-right-part{
+    width: 65%;
+}
+
 .blg-dtls-right-part h3 {
     font-size: 32px;
     font-weight: 700;
@@ -208,5 +212,42 @@
     border-radius: 15px;
     overflow: hidden;
     margin-top: 40px;
+}
+
+.blg-dtls-text {
+    margin-top: 40px;
+}
+
+.blg-dtls-text p {
+    font-size: 18px;
+    color: var(--icon-color);
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.blg-dtls-text p:last-child{
+    margin-top: 40px;
+}
+
+.blg-dtls-text-quote {
+    width: 100%;
+    padding: 40px;
+    border-radius: 15px;
+    background: var(--red-color);
+    color: var(--white-color);
+    margin-top: 40px;
+}
+
+.blg-dtls-text-quote p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.blg-dtls-text-quote h3{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: 15px;
 }
 /* =====================blog-dtls right part end==================== */
