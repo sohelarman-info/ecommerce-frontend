@@ -37,6 +37,7 @@
 
 .prdct-dtls-right .breadcrumb ul li a {
     color: var(--black-color);
+    text-decoration: none;
 }
 
 .prdct-dtls-right li:after {

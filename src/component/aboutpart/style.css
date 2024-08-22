@@ -37,6 +37,7 @@
 
 .tronixabout-part .breadcrumb ul li a {
     color: var(--black-color);
+    text-decoration: none;
 }
 
 .tronixabout-part li:after {

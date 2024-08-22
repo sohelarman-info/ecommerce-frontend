@@ -7,8 +7,8 @@ function Blog() {
     <div className='blog-part-start'>
         <div className='breadcrumb'>
             <ul>
-                <li><a href='/'>Home</a></li>
-                <li>Blog</li>
+                <li className='brdcmb-list'><a href='/'>Home</a></li>
+                <li className='brdcmb-list'>Blog</li>
             </ul>
         </div>
 

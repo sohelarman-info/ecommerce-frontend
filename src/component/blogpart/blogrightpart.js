@@ -1,7 +1,6 @@
 'use client'
 import React from 'react'
 import Pagination from './pagination'
-import Blogproduct from './blogproduct'
 
 function Blogrightpart() {
   return (
