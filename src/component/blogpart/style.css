@@ -14,13 +14,13 @@
     text-decoration: none;
 }
 
-.blog-part-start .brdcmb-list::before {
+.blog-part-start .brdcmb-list::after {
     padding: 8px;
     color: var(--black-color);
     content:">";
 }
 
-.blog-part-start .brdcmb-list:first-child:before {
+.blog-part-start .brdcmb-list:last-child:after {
     padding: 8px;
     color: var(--black-color);
     content:"";
