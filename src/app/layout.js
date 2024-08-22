@@ -3,7 +3,6 @@ import "./globals.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Providers from "@/component/Redux/Provider";
 
 
 const inter = Poppins({ subsets: ["latin"], weight:['400', '500', '600', '700', '800'] });
@@ -16,13 +15,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      {/* <body className={inter.className}>{children}</body> */}
-      
-      <Providers>
-        <body className={inter.className} suppressHydrationWarning={true}>
-          {children}
-        </body>
-      </Providers>
+      <body className={inter.className}>{children}</body>
     </html>
   );
 }
