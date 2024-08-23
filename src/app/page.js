@@ -1,13 +1,15 @@
-import { Button, Stack } from "react-bootstrap";
-import styles from "./page.module.css";
-import Hero from "@/sections/hero";
+import React from "react";
+import HomePage from "./pages/home/page";
 
 export default function Home() {
   return (
-    <main>
-      <Button as="a" variant="primary">
-        <Hero />
-      </Button>
-    </main>
+   <>
+   {/* all routing comment here */}
+      {/* href="/" 
+       href="/pages/about" 
+      href="/pages/product" 
+      href="/pages/blogdetails" */}
+      <HomePage/>
+   </>
   );
 }

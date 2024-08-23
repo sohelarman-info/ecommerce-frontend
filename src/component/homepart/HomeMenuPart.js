@@ -46,7 +46,7 @@ function HomeMenuBar() {
         <div className='shopping-element'>
             <div className='shopping-icon'> 
                 <MdOutlineShoppingBag/>
-                <div className='number'>99</div>
+                <div className='number'><p>99</p></div>
             </div>
             <div className='shopping-icon'>
                 <MdMailOutline/>

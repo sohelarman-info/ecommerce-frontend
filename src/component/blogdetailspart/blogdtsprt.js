@@ -9,7 +9,7 @@ export default function Blogdtsprt() {
         <div className='breadcrumb'>
             <ul>
                 <li className='brdcmb-list'><a href='/'>Home</a></li>
-                <li className='brdcmb-list'>Blog</li>
+                <li className='brdcmb-list'>BlogDetails</li>
             </ul>
         </div>
 
