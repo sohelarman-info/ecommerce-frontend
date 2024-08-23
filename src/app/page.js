@@ -1,11 +1,15 @@
-import Category from "@/sections/category";
-import Hero from "@/sections/hero";
+import React from "react";
+import HomePage from "./pages/home/page";
 
 export default function Home() {
   return (
-    <main>
-      <Hero />
-      <Category />
-    </main>
+   <>
+   {/* all routing comment here */}
+      {/* href="/" 
+       href="/pages/about" 
+      href="/pages/product" 
+      href="/pages/blogdetails" */}
+      <HomePage/>
+   </>
   );
 }
