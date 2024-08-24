@@ -338,15 +338,17 @@
     justify-content: center;
 }
 
-.cart-btns button{
+.cart-btns a {
+    text-decoration: none;
+}
+
+.cart-btns p{
     margin-top: 30px;
     text-align: center;
     font-size: 18px;
     font-weight: 400;
     background: transparent;
     color: var(--black-color);
-    border: none;
-    outline: none;
     border-radius: 12px;
 }
 /* =======================check right end ===================== */

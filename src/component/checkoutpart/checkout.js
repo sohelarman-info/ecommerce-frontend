@@ -184,7 +184,7 @@ function Checkout() {
 
                 <div className='cart-btns'>
                   <a href='/pages/cart'>
-                    <button>Back to Cart</button>
+                    <p>Back to Cart</p>
                   </a>
                 </div>
               </div>
