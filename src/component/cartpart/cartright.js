@@ -28,7 +28,7 @@ function Cartright() {
           <h3>$202.00</h3>
         </div>
         <div className='checkout-btn'>
-          <a href='/'>
+          <a href='/pages/checkout'>
             <button>Checkout</button>
           </a>
         </div>

@@ -12,3 +12,16 @@ export const leavecomment = Yup.object({
   email: Yup.string().nullable().email().required("Please Enter Your Email"),
   comment: Yup.string().required("Please write your comment")
 });
+
+export const buyerInfo = Yup.object({
+  fname: Yup.string().min(4).max(25).required("Please Enter Your First Name"),
+  lname: Yup.string().min(4).max(25).required("Please Enter Your Last Name"),
+  address: Yup.string().required("Please Enter Your Address"),
+  contactno: Yup.string().nullable().required("Please Enter Your Contact No."),
+  country: Yup.string().required("Please Enter Your Country"),
+  city: Yup.string().required("Please Enter Your City"),
+  city: Yup.string().required("Please Enter Your City"),
+  state: Yup.string().required("Please Enter Your State"),
+  zipcode: Yup.string().required("Please Enter Your Zip Code"),
+  comment: Yup.string().required("Please write your comment")
+});
