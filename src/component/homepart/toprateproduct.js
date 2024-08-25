@@ -24,7 +24,7 @@ function TopRateProduct() {
                             <span>{item.sold}</span>
                         </div>
                         <div className='btn'>
-                            <a href='#'><button>Add to Cart</button></a>
+                            <a href='/pages/cart'><button>Add to Cart</button></a>
                             <Images src='/love.png' width={24} height={24} style={{marginLeft: "30px"}} alt='love'/>
                         </div>
                     </div>

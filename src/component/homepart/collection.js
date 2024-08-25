@@ -39,7 +39,7 @@ function Collection() {
                             <span className='current-num'>{item.curname}</span>
                         </div>
                         <div className='add-cart'>
-                            <a href='#'><button>Add to cart</button></a>
+                            <a href='/pages/cart'><button>Add to cart</button></a>
                         </div>
                     </div>
                     ))
