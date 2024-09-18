@@ -1,7 +1,7 @@
 'use client'
 import React, { useEffect, useState } from 'react';
 import ReactPaginate from 'react-paginate';
-import Blogproduct from './blogproduct';
+import SearchProduct from './SearchProduct';
 
 const items = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13,1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13,];
 
@@ -12,7 +12,7 @@ function Items({ currentItems }) {
       {currentItems &&
         currentItems.map((item, i) => (
           <div key={i}>
-            <Blogproduct/>
+            <SearchProduct/>
           </div>
         ))}
     </>
@@ -20,7 +20,7 @@ function Items({ currentItems }) {
 }
 
 
-function Pagination({ itemsPerPage }) {
+function SearchPagination({ itemsPerPage }) {
     const [itemOffset, setItemOffset] = useState(0);
 
     const endOffset = itemOffset + itemsPerPage;
@@ -59,4 +59,4 @@ function Pagination({ itemsPerPage }) {
   )
 }
 
-export default Pagination
+export default SearchPagination

@@ -28,7 +28,7 @@ function Cartleft() {
             cartData.map((item, i)=>(
                 <div className='cart-items' key={i}>
                     <div className='select'>
-                        <input type='checkbox' id='select'/>
+                        <input type='checkbox' className='select'/>
                     </div>
                     <div className='details'>
                         <div className='cart-imgs'>

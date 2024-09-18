@@ -17,6 +17,15 @@
     width: 20%;
 }
 
+.top-icons {
+    cursor: pointer;
+    transition: 4.s;
+}
+
+.top-icons:hover {
+    color: var(--red-color);
+}
+
 .top-right{
     width: 70%;
     display: flex;

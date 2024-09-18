@@ -32,3 +32,15 @@ a {
 p {
   margin-bottom: 0 !important;
 }
+
+.link {
+  text-decoration: none;
+}
+
+::-webkit-scrollbar{
+  width: 4px;
+}
+
+::-webkit-scrollbar-thumb{
+  background: var(--red-color);
+}

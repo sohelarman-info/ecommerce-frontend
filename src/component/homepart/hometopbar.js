@@ -14,10 +14,10 @@ function HomeTopBar() {
     <div>
         <div className='home-top'>
             <div className='top-icon'>
-                <FaInstagram />
-                <FaFacebookSquare />
-                <FaTwitterSquare/>
-                <IoLogoLinkedin/>
+                <FaInstagram className='top-icons'/>
+                <FaFacebookSquare  className='top-icons'/>
+                <FaTwitterSquare className='top-icons'/>
+                <IoLogoLinkedin className='top-icons'/>
             </div>
             <div className='top-right'>
                 <div className='right-element'>
