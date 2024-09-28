@@ -29,7 +29,7 @@ function Blgdtlsrightpart() {
       </div>
 
       <div className='comnt-img'>
-        <Image src='/Ad_3.png' width={1050} height={400} alt='cmnt-img' style={{objectFit: "cover"}}/>
+        <Image src='/Ad_3.png' width={1050} height={400} alt='cmnt-img' style={{objectFit: "cover"}} className='blg_dtls_img' priority={true}/>
       </div>
       <div className='blg-dtls-text'>
         <p>To support performance in playing, a professional e-sport player must use the right device. To support performance in playing, a professional e-sport player must use the right e-sport-support smartphone.</p>

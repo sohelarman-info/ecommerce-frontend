@@ -25,3 +25,18 @@ export const buyerInfo = Yup.object({
   zipcode: Yup.string().required("Please Enter Your Zip Code"),
   comment: Yup.string().required("Please write your comment")
 });
+
+export const contactSubject = Yup.object({
+  name: Yup.string().min(4).max(25).required("Please Enter Your Name"),
+  email: Yup.string().nullable().email().required("Please Enter Your Email"),
+  subject: Yup.string().required("Please write your Subject")
+});
+
+export const registration = Yup.object({
+  
+  fName: Yup.string().min(4).max(10).required("Please Enter Your Name"),
+  lName: Yup.string().min(4).max(10).required("Please Enter Your Name"),
+  email: Yup.string().nullable().email().required("Please Enter Your Email"),
+  password: Yup.string().min(8).max(16).required("Please Enter Your Password"),
+  confirmPassword: Yup.string().min(8).max(16).required("Please Enter Your Confirm Password")
+})

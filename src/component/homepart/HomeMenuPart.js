@@ -17,8 +17,8 @@ function HomeMenuBar() {
         </Link>
       </div>
       <div className="all-menu">
-        <Navbar expand="lg">
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar expand="lg" className="nav_menu">
+          <Navbar.Toggle aria-controls="basic-navbar-nav" className="menu_toggole" />
           <Navbar.Collapse className="menu-list">
             <Nav className="mx-auto">
               <Nav.Link href="/" className="list-type">
@@ -42,7 +42,7 @@ function HomeMenuBar() {
                   Blog Details
                 </NavDropdown.Item>
               </NavDropdown>
-              <Nav.Link href="/" className="list-type">
+              <Nav.Link href="/pages/contact" className="list-type">
                 Contact
               </Nav.Link>
             </Nav>
@@ -54,7 +54,7 @@ function HomeMenuBar() {
           <div className="search-box">
             <input type="text" placeholder="Search your item.." />
             <div className="search-icon">
-              <FaSearch />
+              <FaSearch className="srch_home_icon"/>
             </div>
           </div>
         </Link>

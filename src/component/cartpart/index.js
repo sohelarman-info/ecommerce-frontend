@@ -3,6 +3,7 @@ import HomeTopBar from '../homepart/hometopbar'
 import Container from '../container/Container'
 import FooterElements from '../homepart/footerelements'
 import Cart from './cart'
+import './responsive.css'
 
 function Cartpart() {
   return (

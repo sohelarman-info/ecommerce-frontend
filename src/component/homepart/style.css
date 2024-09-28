@@ -6,6 +6,7 @@
     justify-content: space-between;
     border-bottom: 2px solid var(--border-color);
     padding-bottom: 18px;
+    width: 100%;
 }
 
 .top-icon {
@@ -14,7 +15,7 @@
     gap: 28px;
     font-size: 20px;
     color: var(--icon-color);
-    width: 20%;
+    width: 30%;
 }
 
 .top-icons {
@@ -30,7 +31,7 @@
     width: 70%;
     display: flex;
     align-items: center;
-    justify-content: end;
+    justify-content: flex-end;
     gap: 32px;
 }
 
@@ -61,6 +62,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 999;
 }
 
 .prjt-name {
@@ -94,6 +96,19 @@
 .list-type:hover {
     width: 30%;
     color: var(--red-color);
+}
+
+.dropdown-menu {
+    --bs-dropdown-link-active-color: var(--white-color) !important;
+    --bs-dropdown-link-active-bg: var(--red-color) !important;
+    padding: 0 !important;
+    margin-left: -50px !important;
+}
+
+.dropdown-menu[data-bs-popper] {
+    top: 100%;
+    left: -10px;
+    margin-top: var(--bs-dropdown-spacer);
 }
 
 .navbar-nav .nav-link.active {
@@ -138,7 +153,7 @@
     width: 10%;
     display: flex;
     align-items: center;
-    justify-content: end;
+    justify-content: flex-end;
     gap: 32px;
 }
 
@@ -186,15 +201,39 @@
     position: relative;
     border-radius: 15px;
     overflow: hidden;
+    z-index: 888;
 }
 
-.overlay{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.425);
+.carousel-control-prev {
+    width: 60px !important;
+    height: 60px !important;
+    border-radius: 50% !important;
+    background: var(--red-color) !important;
+    position: absolute !important;
+    top: 300px !important;
+    left: 20px !important;
+}
+
+.carousel-control-next {
+    width: 60px !important;
+    height: 60px !important;
+    border-radius: 50% !important;
+    background: var(--red-color) !important;
+    position: absolute !important;
+    top: 300px !important;
+    right: 20px !important;
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: var(--red-color) !important;
+}
+
+.carousel-control-next-icon {
+
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    color: black;
 }
 
 .overlay-text {
@@ -222,15 +261,12 @@
     height: 644px;
 }
 
-.carousel {
-    z-index: 9999;
-}
-
 .second-banner {
     width: 30%;
     height: 644px;
     overflow: hidden;
     border-radius: 15px;
+    position: relative;
 }
 
 .pc-gaming {
@@ -242,6 +278,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .pc-gaming p{
@@ -257,13 +296,15 @@
 .camera {
     width: 100%;
     height: 48%;
-    margin-top: 7%;
     overflow: hidden;
     border-radius: 15px;
     background: rgba(0, 0, 0, 0.425);
     display: flex;
     align-items: center;
     justify-content: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 
 .camera p{
@@ -324,8 +365,7 @@
 
 /* =====================NewArraivals part start =================== */
 .arrivals-part{
-    margin-top: 160px;
-    margin-bottom: 160px;
+    margin: 160px 0;
 }
 
 .view-text{
@@ -452,17 +492,21 @@
     margin-top: 60px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    gap: 25px;
+    gap: 26px;
 }
 
 .sec-items {
     width: 425px;
     height: 611px;
-    border: 2px solid var(--border-color);
+    border: 1px solid var(--border-color);
     border-radius: 20px;
     overflow: hidden;
     position: relative;
+}
+
+.flas_img {
+    width: 100% !important;
+    height: 60% !important;
 }
 
 .flash-tag {
@@ -730,6 +774,12 @@
     font-weight: 400;
     color: var(--icon-color);
     margin-left: 5px;
+}
+
+.add_btn {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
 }
 
 .btn {

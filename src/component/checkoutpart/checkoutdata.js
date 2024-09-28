@@ -33,6 +33,6 @@ export const allprice = [
 
 export const totalprice = [
     {
-        totalprice: "$300.00",
+        totalprice: "$325.00",
     },
 ]

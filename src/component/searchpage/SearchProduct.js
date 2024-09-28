@@ -17,8 +17,8 @@ function SearchProduct() {
             <div className="admin"></div>
             <div className="cart_rate">
               <div className="srch_priceing">
-                <p>$199</p>
-                <span>$99</span>
+                <p>{item.updateprice}</p>
+                <span>{item.oldprice}</span>
               </div>
               <Link href="/pages/cart" className="link">
                 <button>Add to Cart</button>

@@ -26,7 +26,7 @@ function Collection() {
                     collection.map((item, i)=> (
                         <div className='item-details' key={i}>
                         <div className='item-img-tag'>
-                            <Images src={item.img} width={376} height={333} alt='collection-img'/>
+                            <Images src={item.img} width={376} height={333} alt='collection-img' className='fetured_img'  priority={true} />
                             <div className='sold-tag'>
                                 <p>{item.tagnew}</p>
                                 <p className='coll-discount'>{item.tagoff}</p>

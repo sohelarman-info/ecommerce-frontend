@@ -2,6 +2,7 @@
 import Image from 'next/image';
 import React from 'react'
 import Accordion from 'react-bootstrap/Accordion';
+import {motion} from 'framer-motion'
 
 function Cartright() {
   return (
@@ -29,7 +30,9 @@ function Cartright() {
         </div>
         <div className='checkout-btn'>
           <a href='/pages/checkout'>
+          <motion.div whileTap={{ scale: 0.8 }}>
             <button>Checkout</button>
+          </motion.div>
           </a>
         </div>
         <div className='shopping'>

@@ -3,10 +3,11 @@ import Container from '../container/Container'
 import HomeTopBar from '../homepart/hometopbar'
 import Tronixabout from './tronixabout'
 import FooterElements from '../homepart/footerelements'
-import "./style.css"
 import Adsimg from './adsimg'
 import Choosepart from './choosepart'
 import Teampart from './teampart'
+import "./style.css"
+import "./mobileResponsive.css"
 
 
 function AboutPart() {

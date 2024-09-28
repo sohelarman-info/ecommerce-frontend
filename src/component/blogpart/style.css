@@ -184,13 +184,14 @@
 .blg-right-part {
     width: 75%;
     margin-left: 50px;
+    position: relative;
 }
 
-.blog-product {
+.blg_prdcts {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 15px 25px ;
 }
 
 .blog-product-item {
@@ -274,5 +275,11 @@
     border: none !important;
     background: none !important;
     border-radius: none !important;
+}
+
+.count_products {
+    position: absolute;
+    bottom: 20px;
+    right: 0;
 }
 /* =====================blog right part end==================== */

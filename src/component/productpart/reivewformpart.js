@@ -15,6 +15,7 @@ function Reivewformpart() {
     validationSchema: reviewform,
     onSubmit: values => {
       console.log(values);
+      formik.resetForm()
       
     },
   });

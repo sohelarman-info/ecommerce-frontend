@@ -60,7 +60,7 @@
     content: '';
     width: 240px;
     height: 2px;
-    background: var(--black-color);
+    background: var(--red-color);
     position: absolute;
     top: 50%;
     left: 198px;
@@ -130,6 +130,7 @@
 /* =======================check left start ===================== */
 .checkleft-box {
     width: 100%;
+    margin-bottom: 30px;
 }
 
 .checkleft-box .info{

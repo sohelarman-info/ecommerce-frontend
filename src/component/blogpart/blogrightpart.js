@@ -5,7 +5,7 @@ import Pagination from './pagination'
 function Blogrightpart() {
   return (
     <div className='blg-right-part'>
-       <Pagination itemsPerPage={4} />
+       <Pagination itemsPerPage={12} />
     </div>
   )
 }

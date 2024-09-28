@@ -12,24 +12,18 @@ function Hero() {
             <div className='first-banner'>
                 <Carousel fade className='carousel'>
                     <Carousel.Item  className='banner-carousel'>
-                        {/* <Images src="/Frame 10.png" width={1073} height={644} alt="..."/> */}
+                        <Images src="/laptop.jpg" width={1073} height={644} alt="..." className='bnr_img'  priority={true} />
                         
                     </Carousel.Item>
                     <Carousel.Item className='banner-carousel'>
-                    {/* <Images src="/Offers_2.png" width={1073} height={644} alt="..."/> */}
+                    <Images src="/laptop_2.jpg" width={1073} height={644} alt="..." className='bnr_img'  priority={true} />
                     
                     </Carousel.Item>
                     <Carousel.Item className='banner-carousel'>
-                    {/* <Images src="/Offers_3.png" width={1073} height={644} alt="..."/> */}
+                    <Images src="/Offers_3.png" width={1073} height={644} alt="..." className='bnr_img'  priority={true} />
                     
                     </Carousel.Item>
                 </Carousel>
-                <div className='overlay'>
-                    <div className='overlay-text'>
-                        <h3>Better Devices for Better Life</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. </p>
-                    </div>
-                </div>
             </div>
             <div className='second-banner'>
                 <div className='pc-gaming'>

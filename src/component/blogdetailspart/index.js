@@ -4,6 +4,7 @@ import HomeTopBar from '../homepart/hometopbar'
 import FooterElements from '../homepart/footerelements'
 import Blogdtsprt from './blogdtsprt'
 import './style.css'
+import './responsive.css'
 
 function BlogDetails() {
   return (

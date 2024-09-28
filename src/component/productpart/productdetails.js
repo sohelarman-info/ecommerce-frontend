@@ -70,7 +70,36 @@ function Productdetails() {
         slidesToShow: 3,
         slidesToScroll: 1,
         nextArrow: <SampleNextArrowsec />,
-        prevArrow: <SamplePrevArrowsec />
+        prevArrow: <SamplePrevArrowsec />,
+        responsive: [
+          {
+            breakpoint: 1299,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 1,
+              infinite: true,
+              dots: true,
+            },
+          },
+          {
+            breakpoint: 1199,
+            settings: {
+              slidesToShow: 4,
+              slidesToScroll: 1,
+              infinite: true,
+              dots: true,
+            },
+          },
+          {
+            breakpoint: 991,
+            settings: {
+              slidesToShow:4,
+              slidesToScroll: 1,
+              infinite: true,
+              dots: true,
+            },
+          },
+        ],
       };
   
     useEffect(() => {
@@ -84,16 +113,19 @@ function Productdetails() {
                 <div className='prdct-img'>
                     <Slider asNavFor={nav2} ref={slider => (sliderRef1 = slider)} {...settings}>
                         <div>
-                            <Images src='/offers_1.png' width={750} height={500} alt="product-img"/>
+                            <Images src='/offers_1.png' width={750} height={500} alt="product-img" className="pro_img" priority={true}/>
                         </div>
                         <div>
-                            <Images src='/Offers_3.png' width={750} height={500} alt="product-img"/>
+                            <Images src='/Offers_3.png' width={750} height={500} alt="product-img" className="pro_img" priority={true}/>
                         </div>
                         <div>
-                            <Images src='/Offers_2.png' width={750} height={500} alt="product-img"/>
+                            <Images src='/Offers_2.png' width={750} height={500} alt="product-img" className="pro_img" priority={true}/>
                         </div>
                         <div>
-                            <Images src='/Offers_4.png' width={750} height={500} alt="product-img"/>
+                            <Images src='/Offers_4.png' width={750} height={500} alt="product-img" className="pro_img" priority={true}/>
+                        </div>
+                        <div>
+                            <Images src='/Offers_3.png' width={750} height={500} alt="product-img" className="pro_img" priority={true}/>
                         </div>
                     </Slider>
                     <div className="sec-slide">
@@ -117,6 +149,10 @@ function Productdetails() {
                             <div>
                                 <Images src='/Offers_4.png' width={150} height={150} alt="product-img"/>
                             </div>
+                            <div>
+                                <Images src='/Offers_3.png' width={150} height={150} alt="product-img"/>
+                            </div>
+
                         </Slider>
                     </div>
                     </div>

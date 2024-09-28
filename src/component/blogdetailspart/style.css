@@ -215,6 +215,10 @@
     margin-top: 40px;
 }
 
+.blg_dtls_img {
+    width: 100% !important;
+}
+
 .blg-dtls-text {
     margin-top: 40px;
 }
@@ -315,7 +319,6 @@
     border: 2px solid var(--border-color);
     overflow: hidden;
     margin-bottom: 20px;
-    margin-top: 40px;
 }
 
 .rltd-product-text {

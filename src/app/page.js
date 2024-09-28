@@ -1,15 +1,10 @@
 import React from "react";
-import HomePage from "./pages/home/page";
+import FirstHomePage from "./pages/firsthome/page";
 
 export default function Home() {
   return (
    <>
-   {/* all routing comment here */}
-      {/* href="/" 
-       href="/pages/about" 
-      href="/pages/product" 
-      href="/pages/blogdetails" */}
-      <HomePage/>
+      <FirstHomePage/>
    </>
   );
 }

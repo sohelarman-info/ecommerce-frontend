@@ -291,7 +291,7 @@
 }
 
 .accordion-button::after {
-    margin-left: 28px !important;
+    display: none;
 }
 
 .coupon {

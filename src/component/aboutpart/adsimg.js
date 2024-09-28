@@ -6,7 +6,7 @@ function Adsimg() {
     <div className='adsimg-part'>
       <div className='img'>
         <a href='#'>  
-          <Images src='/Ads_2.png' width={1318} height={350} alt='ads_img' style={{objectFit: 'cover'}}/>
+          <Images src='/Ads_2.png' width={1318} height={350} alt='ads_img' style={{objectFit: 'cover'}} className='about_img'  priority={true} />
         </a>
       </div>
     </div>

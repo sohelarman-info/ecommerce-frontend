@@ -48,43 +48,13 @@ export const newArraivals = [
     },
     {
         img: '/Offers_2.png',
-        tag: "Old",
+        tag: "New",
         devicename: "Smart TV",
         rate: "$299.00",
         star: '/star 1.png',
         sold: "5.0  | sold 99"
     },
 ]
-
-// export const flashsale = [
-//     {
-//         img: '/arraivals 1.png',
-//         discount: "45% OFF",
-//         device: "Wireless Headphone",
-//         banname: "$29.99",
-//         curname: " - $19.99",
-//         available: "Available: 10",
-//         sold: "Sold: 5"
-//     },
-//     {
-//         img: '/arraivals 5.png',
-//         discount: "50% OFF",
-//         device: "Air Purifier",
-//         banname: "$29.99",
-//         curname: " - $19.99",
-//         available: "Available: 5",
-//         sold: "Sold: 2"
-//     },
-//     {
-//         img: '/arraivals 4.png',
-//         discount: "30% OFF",
-//         device: "Bluetooth Printer",
-//         banname: "$29.99",
-//         curname: " - $19.99",
-//         available: "Available: 7",
-//         sold: "Sold: 3"
-//     },
-// ]
 
 export const company = [
     {name: "SimSong"},
@@ -127,29 +97,29 @@ export const collection = [
 
 export const toprateproduct = [
     {
-        img: '/offers_1.png',
+        img: '/smart_watch2.jpg',
         headname: "Smart Watch New Series",
         money: "$100.00",
         img2: "/star 1.png",
         sold: " 5.0 | Sold 99",
     },
     {
-        img: '/Offers_2.png',
-        headname: "Smart Watch New Series",
+        img: '/smart_tv.jpg',
+        headname: "Smart Televison New Series",
         money: "$100.00",
         img2: "/star 1.png",
         sold: " 5.0 | Sold 99",
     },
     {
-        img: '/Offers_4.png',
-        headname: "Smart Watch New Series",
+        img: '/Computer.jpg',
+        headname: "Computer New Series",
         money: "$100.00",
         img2: "/star 1.png",
         sold: " 5.0 | Sold 99",
     },
     {
         img: '/Offers_3.png',
-        headname: "Smart Watch New Series",
+        headname: "Headphone New Series",
         money: "$100.00",
         img2: "/star 1.png",
         sold: " 5.0 | Sold 99",

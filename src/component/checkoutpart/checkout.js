@@ -4,6 +4,7 @@ import './style.css'
 import { useFormik } from 'formik'
 import { buyerInfo } from '@/validationform/Yup'
 import { allprice, checkdata, totalprice } from './checkoutdata'
+import {motion} from "framer-motion"
 
 function Checkout() {
   const [isActive, setActive] = useState();
@@ -30,7 +31,7 @@ function Checkout() {
         validationSchema: buyerInfo,
         onSubmit: values => {
           console.log(values);
-          
+          formik.resetForm()
         },
       });
 
@@ -177,9 +178,11 @@ function Checkout() {
                 </div>
 
                 <div className='check-btns'>
+                <motion.div whileTap={{ scale: 0.8 }}>
                   <a href='#'>
                     <button type='submit'>CheckOut</button>
                   </a>
+                </motion.div>
                 </div>
 
                 <div className='cart-btns'>

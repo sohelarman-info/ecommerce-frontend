@@ -1,4 +1,8 @@
 /* ==============about-head-name part start================= */
+.about_top {
+    width: 100%;
+}
+
 .head{
     color: var(--black-color);
     font-size: 48px;
@@ -68,7 +72,6 @@
 /* ==============adsimg part end================= */
 /* ==============choose part start================= */
 .choose-part {
-    width: 100%;
     margin-bottom: 160px;
 }
 
@@ -102,7 +105,6 @@
 /* ==============team part start================= */
 .team-part {
     margin-bottom: 160px;
-    width: 100%;
 }
 
 .team-text p {

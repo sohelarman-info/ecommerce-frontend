@@ -21,7 +21,7 @@ function Cartleft() {
   return (
     <div className='cart-left-part'>
         <div className='chec-box'>
-            <input type='checkbox' id='select'/>
+            <input type='checkbox' id='select' className='select'/>
             <label htmlFor='select'>Select All</label>
         </div>
         {

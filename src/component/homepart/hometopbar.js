@@ -1,5 +1,4 @@
 import React from 'react'
-import './style.css'
 import { FaInstagram } from "react-icons/fa";
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaTwitterSquare } from "react-icons/fa";
@@ -8,6 +7,8 @@ import { FiPhone } from "react-icons/fi";
 import { IoIosMail } from "react-icons/io";
 import { FaRegUser } from "react-icons/fa";
 import HomeMenuBar from './HomeMenuPart';
+import './style.css'
+import './mobilerspnsive.css'
 
 function HomeTopBar() {
   return (

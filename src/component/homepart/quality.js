@@ -6,7 +6,7 @@ function Quality() {
     <div className='quality-part'>
         <div className='quality-img'>
             <a href='#'>
-                <Images src="/Frame 10.png" width={1370} height={429} alt='quality-img'/>
+                <Images src="/Frame 10.png" width={1370} height={429} alt='quality-img' className='quality_img' priority={true}/>
             </a>
         </div>
     </div>
